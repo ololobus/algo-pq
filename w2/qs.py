@@ -1,6 +1,5 @@
 import math
 
-# file_name = 'test.txt'
 file_name = 'QuickSort.txt'
 
 file = open(file_name)
