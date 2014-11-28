@@ -1,4 +1,5 @@
 file_name = '2sum.txt'
+file_name = 'test.txt'
 
 array = open(file_name).readlines()
 array = map(lambda i: int(i), array)
