@@ -1,5 +1,3 @@
-import sys
-
 file_name = '2sum.txt'
 
 array = open(file_name).readlines()
@@ -22,19 +20,3 @@ for t in range(-10000, 10001, 1):
             break
 
 print total
-
-
-# progress = 0
-#
-# for i in range(length):
-#     for j in range(length)[(i + 1):]:
-#         if -10000 <= int(array[i]) + int(array[j]) <= 10000:
-#             total += 1
-#     if i % 100000 == 0:
-#         progress += 10
-#         sys.stdout.write(str(progress) + '% ')
-#
-# print 'Stupid 2sum result: ', total
-#
-# total = 0
-
